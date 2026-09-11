@@ -7,7 +7,7 @@ public class Category
     public string Color { get; set; } = "#000000";
 
     public Guid UserId { get; set; }
-    public User user { get; set; } = null!;
+    public User User { get; set; } = null!;
 
     public ICollection<Transaction> Transactions { get; set; } = new List<Transaction>();
 }
